@@ -477,12 +477,12 @@ header {
     color: #172b4d;
     text-align: center;
     margin: 0 24px;
-    animation: desk-title 3s infinite;    
+    animation: desk-title 5s infinite;
   }
 
   @keyframes desk-title {
     from {transform: translate(0);}
-    to {transform: translate(10px);}
+    to {transform: translate(20px);}
   }
 
   .supporting-text {
