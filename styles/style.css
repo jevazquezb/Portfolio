@@ -615,6 +615,7 @@ header {
     background: #dfe1e6;
     border: none;
     margin-bottom: 0;
-    bottom: 50px;
+    bottom: 50px
+    ;
   }
 }
