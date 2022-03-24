@@ -1,25 +1,11 @@
 body {
   background-color: #fff;
+  border-width: 2px 2px 8px 2px;
+  border-radius: 5px;
 }
 
 .flex {
   display: flex;
-}
-
-.device-container {
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-}
-
-.device-look {
-  width: 390px;
-  height: 90vh;
-  border-radius: 10px;
-  border-style: solid;
-  border-width: 5px;
-  overflow-y: scroll;
 }
 
 header {
@@ -417,12 +403,13 @@ header {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 450px) {
-  .device-look {
-    width: 100vw;
-    height: 100vh;
-    border: none;
-    overflow-y: visible;
+@media screen and (min-width: 376px) {
+  body {
+    position: relative;  
+    background-image: url('../images/header-desktop.png'), url('../images/about-desktop-2.png'), url('../images/about-desktop-1.png'), url('../images/contact-desktop-1.png'), url('../images/contact-desktop-2.png'), url('../images/contact-desktop-3.png');
+    background-repeat: no-repeat;
+    background-size: 98% , 16%, 15.5%, auto, 10%, auto;;
+    background-position: 100% 0, 0 67.2%, 100% 64.4%, 0 98.6%, 22% 96.4%, 100% 98.45%;    
   }
 
   header {
@@ -465,6 +452,7 @@ header {
 
   .headline {
     padding-top: 160px;
+    background-image: none;
   }
 
   .headline > h1.title {
@@ -541,6 +529,10 @@ header {
     grid-column-gap: 24px;
   }
 
+  .about-me {
+    background-image: none;
+  }
+
   .recent-works.about-me {
     padding: 192px 0 0 0;
   }
@@ -587,6 +579,7 @@ header {
     margin: 164px auto 0 auto;
     flex-wrap: wrap;
     justify-content: center;
+    background-image: none;
   }
 
   .form-text {
@@ -607,9 +600,8 @@ header {
     align-items: flex-start;
   }
 
-  .social-media-form {
-    order: 2;
-    margin: 15px 0;    
+  .social-media-form {    
+    margin: 241px 0 15px 0;    
   }
 
   .email {
@@ -617,12 +609,12 @@ header {
   }
 
   .final-line {
-    order: 1;
-    width: 200%;
+    position:absolute;
+    width: 100%;
     height: 1px;
     background: #dfe1e6;
-    border: none;
-    margin-top: 225px;
-    margin-bottom: 0;    
+    border: none;    
+    margin-bottom: 0;
+    bottom: 50px;   
   }
 }
