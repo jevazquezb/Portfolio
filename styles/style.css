@@ -23,7 +23,6 @@ header {
 }
 
 .logo {
-  /*width: 90px;*/
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -405,28 +404,29 @@ header {
 
 @media screen and (min-width: 376px) {
   body {
-    position: relative;  
+    position: relative;
     background-image: url('../images/header-desktop.png'), url('../images/about-desktop-2.png'), url('../images/about-desktop-1.png'), url('../images/contact-desktop-1.png'), url('../images/contact-desktop-2.png'), url('../images/contact-desktop-3.png');
     background-repeat: no-repeat;
-    background-size: 98% , 16%, 15.5%, auto, 10%, auto;;
-    background-position: 100% 0, 0 67.2%, 100% 64.4%, 0 98.6%, 22% 96.4%, 100% 98.45%;    
+    background-size: 98%, 16%, 15.5%, auto, 10%, auto;
+    background-position: 100% 0, 0 67.2%, 100% 64.4%, 0 98.6%, 22% 96.4%, 100% 98.45%;
   }
 
   header {
-    justify-content: center;       
-    height: 72px;    
+    justify-content: center;
+    height: 72px;
   }
-  
-  .logo-container, .menu-button {
+
+  .logo-container,
+  .menu-button {
     display: none;
   }
 
   .menu-bar {
     width: 255px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
   }
-  
+
   .menu-opt-cont {
     align-items: center;
     height: 40px;
@@ -437,8 +437,8 @@ header {
   .menu-opt-cont:hover {
     border: 1px solid #36b37e;
   }
-  
-  .menu-opt {    
+
+  .menu-opt {
     font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -477,7 +477,7 @@ header {
   }
 
   .supporting-text {
-    width: 63vw;  
+    width: 63vw;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
@@ -485,16 +485,16 @@ header {
   }
 
   .social-media-icons {
-    width: 176px;    
+    width: 176px;
     margin-bottom: 84px;
   }
 
   .info-button {
-    width: 82vw;       
+    width: 82vw;
     margin: 0 auto;
   }
 
-  .recent-works {    
+  .recent-works {
     box-sizing: border-box;
     padding: 495px 0 0 0;
     margin: 0 auto;
@@ -505,7 +505,7 @@ header {
   .works-title {
     margin-bottom: 52px;
     font-size: 40px;
-    line-height: 52px;   
+    line-height: 52px;
   }
 
   .works-title-mob {
@@ -513,15 +513,15 @@ header {
   }
 
   .works-title-desk {
-    display: block;        
+    display: block;
   }
-  
+
   .works-title-line {
     display: none;
   }
-  
+
   .works-container {
-    justify-content: center;  
+    justify-content: center;
     display: grid;
     grid-template-rows: repeat(2, 474px);
     grid-template-columns: repeat(3, 369px);
@@ -591,7 +591,7 @@ header {
     color: #172b4d;
     text-align: center;
     padding: 0 24px 80px 0;
-    width: 41%;    
+    width: 41%;
   }
 
   .form {
@@ -600,8 +600,8 @@ header {
     align-items: flex-start;
   }
 
-  .social-media-form {    
-    margin: 241px 0 15px 0;    
+  .social-media-form {
+    margin: 241px 0 15px 0;
   }
 
   .email {
@@ -609,12 +609,12 @@ header {
   }
 
   .final-line {
-    position:absolute;
+    position: absolute;
     width: 100%;
     height: 1px;
     background: #dfe1e6;
-    border: none;    
+    border: none;
     margin-bottom: 0;
-    bottom: 50px;   
+    bottom: 50px;
   }
 }
