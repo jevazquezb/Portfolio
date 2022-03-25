@@ -224,11 +224,15 @@ header {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
+  transition: all 1s;
 }
 
 .access-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   text-decoration: none;
+  color: #36b37e;
+  background-color: #ebf0ee;
+  font-weight: 600;
 }
 
 .access-button:focus {
@@ -474,6 +478,19 @@ header {
     color: #172b4d;
     text-align: center;
     margin: 0 24px;
+    animation-name: title-animation;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes title-animation {
+    from {
+      font-size: 30px;
+    }
+
+    to {
+      font-size: 48px;
+    }
   }
 
   .supporting-text {
