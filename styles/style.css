@@ -224,21 +224,15 @@ header {
   letter-spacing: 0.03em;
   color: #fff;
   text-decoration: none;
-<<<<<<< HEAD
   transition: all 1s;
-=======
->>>>>>> origin
 }
 
 .access-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   text-decoration: none;
-<<<<<<< HEAD
   color: #36b37e;
   background-color: #ebf0ee;
   font-weight: 600;
-=======
->>>>>>> origin
 }
 
 .access-button:focus {
@@ -412,11 +406,7 @@ header {
   margin-bottom: 8px;
 }
 
-<<<<<<< HEAD
-@media screen and (min-width: 376px) {
-=======
 @media screen and (min-width: 768px) {
->>>>>>> origin
   body {
     position: relative;
     background-image: url('../images/header-desktop.png'), url('../images/about-desktop-2.png'), url('../images/about-desktop-1.png'), url('../images/contact-desktop-1.png'), url('../images/contact-desktop-2.png'), url('../images/contact-desktop-3.png');
@@ -488,7 +478,6 @@ header {
     color: #172b4d;
     text-align: center;
     margin: 0 24px;
-<<<<<<< HEAD
     animation-name: title-animation;
     animation-duration: 2s;
     animation-timing-function: ease-out;
@@ -502,8 +491,6 @@ header {
     to {
       font-size: 48px;
     }
-=======
->>>>>>> origin
   }
 
   .supporting-text {
