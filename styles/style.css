@@ -479,7 +479,7 @@ header {
     text-align: center;
     margin: 0 24px;
     animation-name: title-animation;
-    animation-duration: 2s;    
+    animation-duration: 2s;
     animation-timing-function: ease-out;
   }
 
@@ -487,6 +487,7 @@ header {
     from {
       font-size: 30px;
     }
+
     to {
       font-size: 48px;
     }
