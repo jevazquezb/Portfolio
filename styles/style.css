@@ -477,6 +477,18 @@ header {
     color: #172b4d;
     text-align: center;
     margin: 0 24px;
+    animation-name: title-animation;
+    animation-duration: 2s;    
+    animation-timing-function: ease-out;
+  }
+
+  @keyframes title-animation {
+    from {
+      font-size: 30px;
+    }
+    to {
+      font-size: 48px;
+    }
   }
 
   .supporting-text {
