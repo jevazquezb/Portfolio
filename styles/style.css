@@ -402,7 +402,7 @@ header {
   margin-bottom: 8px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 768px) {
   body {
     position: relative;
     background-image: url('../images/header-desktop.png'), url('../images/about-desktop-2.png'), url('../images/about-desktop-1.png'), url('../images/contact-desktop-1.png'), url('../images/contact-desktop-2.png'), url('../images/contact-desktop-3.png');
