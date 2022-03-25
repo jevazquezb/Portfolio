@@ -230,8 +230,9 @@ header {
 .access-button:hover {
   box-shadow: 0 8px 16px rgba(54, 179, 127, 0.24);
   text-decoration: none;
-  color: #ebf0ee;
-  background-color: #c5E9da;
+  color: #36b37e;
+  background-color: #ebf0ee;
+  font-weight: 600;
 }
 
 .access-button:focus {
