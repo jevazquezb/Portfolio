@@ -19,19 +19,19 @@ function displayMenu() {
   menuCanvas.appendChild(closeBtn);
 
   let menuOption = document.createElement('a');
-  menuOption.href = '#';
+  menuOption.href = '#works';
   menuOption.textContent = 'Portfolio';
   menuOption.classList.add('menu-option');
   menuCanvas.appendChild(menuOption);
 
   menuOption = document.createElement('a');
-  menuOption.href = '#';
+  menuOption.href = '#about';
   menuOption.textContent = 'About';
   menuOption.classList.add('menu-option');
   menuCanvas.appendChild(menuOption);
 
   menuOption = document.createElement('a');
-  menuOption.href = '#';
+  menuOption.href = '#form';
   menuOption.textContent = 'Contact';
   menuOption.classList.add('menu-option');
   menuCanvas.appendChild(menuOption);
