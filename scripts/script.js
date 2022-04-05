@@ -6,7 +6,7 @@ function hideMenu(item) {
 }
 
 function createMenuOption(text, ref) {
-  let menuOption = document.createElement('a');
+  const menuOption = document.createElement('a');
   menuOption.href = ref;
   menuOption.textContent = text;
   menuOption.classList.add('menu-option');
