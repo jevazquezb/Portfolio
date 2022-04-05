@@ -50,6 +50,36 @@ header {
   display: none;
 }
 
+.interactive-menu {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.close-menu {
+  width: 40px;
+  align-self: flex-end;
+  margin: 4px 6.5% 20px 0;
+}
+
+.menu-option {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #3a4a42;
+  text-decoration: none;
+  margin-bottom: 40px;
+  margin-left: 7%;
+}
+
 .headline {
   width: 100%;
   padding-top: 64px;
