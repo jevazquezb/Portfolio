@@ -5,6 +5,14 @@ function hideMenu(item) {
   });
 }
 
+function createMenuOption(text, ref) {
+  let menuOption = document.createElement('a');
+  menuOption.href = ref;
+  menuOption.textContent = text;
+  menuOption.classList.add('menu-option');
+  return menuOption;
+}
+
 function displayMenu() {
   const menuIcon = document.querySelector('nav.menu-button');
   const menuCanvas = document.createElement('nav');
@@ -18,23 +26,9 @@ function displayMenu() {
   closeBtn.classList.add('close-menu');
   menuCanvas.appendChild(closeBtn);
 
-  let menuOption = document.createElement('a');
-  menuOption.href = '#works';
-  menuOption.textContent = 'Portfolio';
-  menuOption.classList.add('menu-option');
-  menuCanvas.appendChild(menuOption);
-
-  menuOption = document.createElement('a');
-  menuOption.href = '#about';
-  menuOption.textContent = 'About';
-  menuOption.classList.add('menu-option');
-  menuCanvas.appendChild(menuOption);
-
-  menuOption = document.createElement('a');
-  menuOption.href = '#form';
-  menuOption.textContent = 'Contact';
-  menuOption.classList.add('menu-option');
-  menuCanvas.appendChild(menuOption);
+  menuCanvas.appendChild(createMenuOption('Portfolio', '#works'));
+  menuCanvas.appendChild(createMenuOption('About', '#about'));
+  menuCanvas.appendChild(createMenuOption('Contact', '#form'));
 
   const menuItems = document.querySelectorAll('.interactive-menu > *');
   menuItems.forEach(hideMenu);
