@@ -8,6 +8,10 @@ body {
   display: flex;
 }
 
+.w10 {
+  width: 10px;
+}
+
 header {
   justify-content: space-between;
   align-items: center;
@@ -219,7 +223,6 @@ header {
 
 .cards-lang {
   margin: 0 11px 29px 11px;
-  justify-content: space-between;
   align-items: center;
   align-self: stretch;
 }
@@ -238,6 +241,7 @@ header {
   letter-spacing: 0.03em;
   color: #3a4a42;
   text-decoration: none;
+  margin-right: 4px;
 }
 
 .access-button {
@@ -504,7 +508,7 @@ header {
 .pop-btn-cont {
   width: 100%;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .pop-icon {
@@ -526,6 +530,11 @@ header {
     justify-content: center;
     height: 72px;
   }
+
+  .w10 {
+    width: 20px;
+  }
+
 
   .logo-container,
   .menu-button {
@@ -740,5 +749,15 @@ header {
     border: none;
     margin-bottom: 0;
     bottom: 50px;
+  }
+
+  .pop-description {
+    order: 10;
+    margin-top: 70px;
+  }
+
+  .pop-btn-cont {
+    justify-content: flex-end;
+    margin-top: -100px;
   }
 }
