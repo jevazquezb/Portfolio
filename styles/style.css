@@ -436,6 +436,83 @@ header {
   margin-bottom: 8px;
 }
 
+/*Pop-up*/
+
+.popup-container {
+  position: fixed;
+  background-color: #c1c7d0;
+  z-index: 1;
+  width: 100vw;
+  overflow-y: scroll;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px 4.3% 26px 4.3%;
+}
+
+.pop-body {  
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px 4.3% 20px 4.3%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.close-btn {
+  width: 40px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: transparent;
+  position: absolute;
+  right: 6.4%;
+  top: 24px;
+}
+
+.pop-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.pop-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172B4D;
+  margin-bottom: 12px;;
+}
+
+.pop-lang {
+  margin: 0 0 12px 0;;
+}
+
+.pop-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 16px;
+}
+
+.pop-btn-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
+
 @media screen and (min-width: 768px) {
   body {
     position: relative;
