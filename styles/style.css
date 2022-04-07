@@ -512,19 +512,19 @@ header {
   vertical-align: middle;
 }
 
-  /* validate form classes */
+/* validate form classes */
 
-  .msg-cont {
-    background-color: #f47174;
-    width: 100%;
-    padding: 15px 16px;
-    margin-top: 24px;
-    box-sizing: border-box;
-  }
+.msg-cont {
+  background-color: #f47174;
+  width: 100%;
+  padding: 15px 16px;
+  margin-top: 24px;
+  box-sizing: border-box;
+}
 
-  .hidden {
-    display: none;
-  }
+.hidden {
+  display: none;
+}
 
 .error-msg {
   color: #fff;
@@ -535,9 +535,9 @@ header {
   line-height: 24px;
 }
 
-  .highlight {
-    border: 2px solid #f47174;
-  }
+.highlight {
+  border: 2px solid #f47174;
+}
 
 @media screen and (min-width: 768px) {
   body {

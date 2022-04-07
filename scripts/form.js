@@ -4,8 +4,6 @@ const email = document.querySelector('#email');
 const errorMsgContainer = document.querySelector('.msg-cont');
 const errorMsg = document.querySelector('.error-msg');
 
-form.addEventListener('submit', validateEmail);
-
 function validateEmail(event) {
   if (email.value === email.value.toLowerCase()) {
     errorMsgContainer.classList.add('hidden');
@@ -18,3 +16,5 @@ function validateEmail(event) {
     event.preventDefault();
   }
 }
+
+form.addEventListener('submit', validateEmail);
