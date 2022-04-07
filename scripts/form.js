@@ -22,48 +22,57 @@ function validateEmail(event) {
 
 form.addEventListener('submit', validateEmail);
 
-//Local storage
+// Local storage
 
-//Extracted function from lesson
+// Extracted function from lesson
 function storageAvailable(type) {
-  var storage;
+  let storage;
   try {
-      storage = window[type];
-      var x = '__storage_test__';
-      storage.setItem(x, x);
-      storage.removeItem(x);
-      return true;
-  }
-  catch(e) {
-      return e instanceof DOMException && (
-          // everything except Firefox
-          e.code === 22 ||
-          // Firefox
-          e.code === 1014 ||
-          // test name field too, because code might not be present
-          // everything except Firefox
-          e.name === 'QuotaExceededError' ||
-          // Firefox
-          e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
-          // acknowledge QuotaExceededError only if there's something already stored
-          (storage && storage.length !== 0);
+    const x = '__storage_test__';
+    storage = window[type];
+    storage.setItem(x, x);
+    storage.removeItem(x);
+    return true;
+  } catch (e) {
+    return (
+      e instanceof DOMException &&
+      // everything except Firefox
+      (e.code === 22 ||
+        // Firefox
+        e.code === 1014 ||
+        // test name field too, because code might not be present
+        // everything except Firefox
+        e.name === 'QuotaExceededError' ||
+        // Firefox
+        e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+      // acknowledge QuotaExceededError only if there's something already stored
+      storage &&
+      storage.length !== 0
+    );
   }
 }
 
 function fillFormValues() {
-  
+  const userValues = JSON.parse(localStorage.getItem('userValues')) || {
+    name: '',
+    email: '',
+    message: '',
+  };
+  userName.value = userValues.name;
+  email.value = userValues.email;
+  userMsg.value = userValues.message;
 }
 
 function saveFormValues() {
   const userValues = {
     name: userName.value,
     email: email.value,
-    message: userMsg.value
-  }
+    message: userMsg.value,
+  };
   localStorage.setItem('userValues', JSON.stringify(userValues));
 }
 
-if (storageAvailable('localStorage')) {  
+if (storageAvailable('localStorage')) {
   fillFormValues();
   userName.oninput = saveFormValues;
   email.oninput = saveFormValues;
