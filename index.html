@@ -112,11 +112,14 @@
     <section id="form" class="flex form-container">
       <h2 class="form-text">I'm always interested in hearing about new projects, so if you'd like to chat 
         please get in touch.</h2>            
-      <form class="form flex" action="https://formspree.io/f/xgedzjdn" method="post">
+      <form id="form" class="form flex" action="https://formspree.io/f/xgedzjdn" method="post">
         <input class="box" name="user-name" type="text" maxLength="30" placeholder="Full name" required>
-        <input class="box " name="user-email" type="email" placeholder="Email adress" required>
+        <input id="email" class="box" name="user-email" type="email" placeholder="Email adress" required>
         <textarea class="box box-textarea" name="user-msg" maxLength="500" placeholder="Enter text here" required></textarea>
-        <button class="access-button form-btn" type="submit">Get in touch</button>              
+        <button class="access-button form-btn" type="submit">Get in touch</button>
+        <div class="msg-cont hidden">
+          <p class="error-msg"></p>
+        </div>
       </form>
       <ul class="social-media-icons flex social-media-form">
         <li><a href="#"><img src="images/twitter.png" width="20" height="20" alt="Twitter icon" title="Twitter"></a></li>

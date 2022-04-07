@@ -512,6 +512,30 @@ header {
   vertical-align: middle;
 }
 
+  /* validate form classes */
+
+  .msg-cont {
+    background-color: #f47174;
+    width: 15%;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+.error-msg {
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+  .highlight {
+    border: 2px solid #f47174;
+  }
+
 @media screen and (min-width: 768px) {
   body {
     position: relative;
