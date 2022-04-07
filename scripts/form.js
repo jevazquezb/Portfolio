@@ -1,5 +1,8 @@
 const form = document.querySelector('#contact-form');
+
+const userName = document.querySelector('#user-name');
 const email = document.querySelector('#email');
+const userMsg = document.querySelector('#user-msg');
 
 const errorMsgContainer = document.querySelector('.msg-cont');
 const errorMsg = document.querySelector('.error-msg');
@@ -18,3 +21,51 @@ function validateEmail(event) {
 }
 
 form.addEventListener('submit', validateEmail);
+
+//Local storage
+
+//Extracted function from lesson
+function storageAvailable(type) {
+  var storage;
+  try {
+      storage = window[type];
+      var x = '__storage_test__';
+      storage.setItem(x, x);
+      storage.removeItem(x);
+      return true;
+  }
+  catch(e) {
+      return e instanceof DOMException && (
+          // everything except Firefox
+          e.code === 22 ||
+          // Firefox
+          e.code === 1014 ||
+          // test name field too, because code might not be present
+          // everything except Firefox
+          e.name === 'QuotaExceededError' ||
+          // Firefox
+          e.name === 'NS_ERROR_DOM_QUOTA_REACHED') &&
+          // acknowledge QuotaExceededError only if there's something already stored
+          (storage && storage.length !== 0);
+  }
+}
+
+function fillFormValues() {
+  
+}
+
+function saveFormValues() {
+  const userValues = {
+    name: userName.value,
+    email: email.value,
+    message: userMsg.value
+  }
+  localStorage.setItem('userValues', JSON.stringify(userValues));
+}
+
+if (storageAvailable('localStorage')) {  
+  fillFormValues();
+  userName.oninput = saveFormValues;
+  email.oninput = saveFormValues;
+  userMsg.oninput = saveFormValues;
+}
