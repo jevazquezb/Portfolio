@@ -516,7 +516,10 @@ header {
 
   .msg-cont {
     background-color: #f47174;
-    width: 15%;
+    width: 100%;
+    padding: 15px 16px;
+    margin-top: 24px;
+    box-sizing: border-box;
   }
 
   .hidden {
