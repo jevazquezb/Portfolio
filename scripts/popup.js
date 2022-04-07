@@ -1,8 +1,7 @@
 const works = [
   {
     name: '1.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://mail.google.com/',
@@ -10,8 +9,7 @@ const works = [
   },
   {
     name: '2.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://mail.google.com/',
@@ -19,8 +17,7 @@ const works = [
   },
   {
     name: '3.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://mail.google.com/',
@@ -28,8 +25,7 @@ const works = [
   },
   {
     name: '4.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://mail.google.com/',
@@ -37,8 +33,7 @@ const works = [
   },
   {
     name: '5.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://es.wikipedia.org/wiki/Yahoo!',
@@ -46,8 +41,7 @@ const works = [
   },
   {
     name: '6.- Multi-Post Stories\nGain+Glory',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
     imageLocation: './images/project.png',
     technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
     live: 'https://mail.google.com/',
@@ -82,94 +76,80 @@ function closePopup() {
   popupCont.removeChild(popupCont.firstChild);
 }
 
-function createButton(src, alt, href, text) {
-  const popBtnLive = createElement('a', 'access-button', text, href);
-  const liveIcon = createElement('img', 'pop-icon');
-  liveIcon.src = src;
-  liveIcon.alt = alt;
-  popBtnLive.appendChild(liveIcon);
-  return popBtnLive;
+function createButton(src, alt, text, href) {
+  const popBtn = createElement('a', 'access-button', text, href);
+  const btnIcon = createElement('img', 'pop-icon');
+  btnIcon.src = src;
+  btnIcon.alt = alt;
+  popBtn.appendChild(btnIcon);
+  return popBtn;
 }
 
 function displayPopup(work) {
-  //Create the main container of the Pop-Up
+  // Create the main container of the Pop-Up
   const popupBody = createElement('div', 'pop-body');
 
-  //Add a close-icon within an anchor for the close button.
+  // Add a close-icon within an anchor for the close button.
   const closeBtn = createElement('a', 'close-btn', null, '#');
   const closeImg = createElement('img', 'close-img-mob');
-  closeImg.src = './images/close_pop_mobile.png';
+  closeImg.src = './images/close_pop_desktop.png';
   closeImg.alt = 'Close button';
   closeBtn.appendChild(closeImg);
   closeBtn.addEventListener('click', closePopup);
   popupBody.appendChild(closeBtn);
 
-  //Add the image of the project
+  // Add the image of the project
   const popImg = createElement('img', 'pop-img');
-  popImg.src = work['imageLocation'];
+  popImg.src = work.imageLocation;
   popImg.alt = 'Work image';
   popupBody.appendChild(popImg);
 
-  //Add the title of the project
-  popupBody.appendChild(createElement('h3', 'pop-title', work['name']));
+  // Add the title of the project
+  popupBody.appendChild(createElement('h3', 'pop-title', work.name));
 
-  //Add technologies used in the project
-  const popLang = languages(work['technologies']);
+  // Add technologies used in the project
+  const popLang = languages(work.technologies);
   popLang.classList.add('pop-lang');
   popupBody.appendChild(popLang);
 
-  //Add description of the project
-  popupBody.appendChild(
-    createElement('p', 'pop-description', work['description'])
-  );
+  // Add description of the project
+  popupBody.appendChild(createElement('p', 'pop-description', work.description));
 
-  //Add link buttons
+  // Add link buttons
   const popBtnCont = createElement('div', 'pop-btn-cont');
 
-  //Add first button
-  // const popBtnLive = createElement('a', 'access-button', 'See Live', work['live']);
-  // const liveIcon = createElement('img', 'pop-icon');
-  // liveIcon.src = './images/see_live.png';
-  // liveIcon.alt = 'See live version icon'
-  // popBtnLive.appendChild(liveIcon);
+  // Add first button
   popBtnCont.appendChild(
     createButton(
       './images/see_live.png',
       'See live version icon',
-      work['live'],
-      'See Live'
-    )
+      'See Live',
+      work.live,
+    ),
   );
 
-  popBtnCont.appendChild(createElement('span', 'w10'));
-
-  //Add second button
-  // const popBtnSrc = createElement('a', 'access-button', 'See Source', work['source']);
-  // const srcIcon = createElement('img', 'pop-icon');
-  // srcIcon.src = './images/see_src.png';
-  // srcIcon.alt = 'GitHub icon'
-  // popBtnSrc.appendChild(srcIcon);
+  // Add second button
   popBtnCont.appendChild(
     createButton(
       './images/see_src.png',
       'GitHub icon',
-      work['source'],
-      'See Source'
-    )
+      'See Source',
+      work.source,
+    ),
   );
 
-  //Add button section to card body
+  // Add button section to card body
   popupBody.appendChild(popBtnCont);
 
-  //Add Card to container
+  // Add Card to container
   popupCont.appendChild(popupBody);
   popupCont.style.display = 'block';
 }
 
 function addCard(work) {
   const cardContent = createElement('div', 'cards flex');
-  cardContent.appendChild(createElement('h2', 'cards-title', work['name']));
-  cardContent.appendChild(languages(work['technologies']));
+  cardContent.appendChild(createElement('h2', 'cards-title', work.name));
+  cardContent.appendChild(languages(work.technologies));
 
   const anchorBtn = createElement('a', 'access-button', 'See Project', '#');
   anchorBtn.addEventListener('click', () => displayPopup(work));
