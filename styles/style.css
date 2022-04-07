@@ -1,7 +1,9 @@
 body {
+  width: 100%;
   background-color: #fff;
   border-width: 2px 2px 8px 2px;
   border-radius: 5px;
+  box-sizing: border-box;
 }
 
 .flex {
@@ -436,6 +438,80 @@ header {
   margin-bottom: 8px;
 }
 
+/* Pop-up */
+
+.popup-container {
+  position: fixed;
+  background-color: rgba(193, 199, 208, 0.8);
+  width: 100%;
+  overflow-y: scroll;
+  height: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px 4.3% 26px 4.3%;
+}
+
+.pop-body {
+  background-color: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 16px 4.3% 20px 4.3%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.close-btn {
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  position: absolute;
+  right: 6.4%;
+  top: 24px;
+}
+
+.pop-img {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.pop-title {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-bottom: 12px;
+}
+
+.pop-lang {
+  margin: 0 0 12px 0;
+}
+
+.pop-description {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 16px;
+}
+
+.pop-btn-cont {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.pop-icon {
+  margin-left: 12px;
+  vertical-align: middle;
+}
+
 @media screen and (min-width: 768px) {
   body {
     position: relative;
@@ -663,5 +739,49 @@ header {
     border: none;
     margin-bottom: 0;
     bottom: 50px;
+  }
+
+  /* Pop-Up style in media query */
+
+  .pop-body {
+    width: 65%;
+    margin: 122px auto auto auto;
+    padding-top: 78px;
+  }
+
+  .pop-img {
+    margin-bottom: 24px;
+  }
+
+  .pop-title {
+    width: 60%;
+    margin-bottom: 20px;
+    order: 2;
+  }
+
+  .pop-lang {
+    justify-content: flex-start;
+    margin-bottom: 36px;
+    order: 2;
+  }
+
+  .pop-lang > li {
+    margin-right: 2.1%;
+  }
+
+  .pop-description {
+    order: 2;
+  }
+
+  .pop-btn-cont {
+    justify-content: flex-end;
+    width: 40%;
+    align-self: flex-end;
+    order: 1;
+    margin-bottom: -50px;
+  }
+
+  .pop-btn-cont > a {
+    margin-left: 3.2%;
   }
 }
