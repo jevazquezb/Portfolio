@@ -19,7 +19,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://jevazquezb.github.io/Portfolio_desktop_version/)
+[Live Demo Link](https://jevazquezb.github.io/Portfolio/)
 
 ## Getting Started
 
