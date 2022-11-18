@@ -1,51 +1,51 @@
 const works = [
   {
-    name: '1.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://mail.google.com/',
-    source: 'https://github.com/jevazquezb',
+    name: 'To-do List',
+    description: 'This is a simple to-do list web application. The user can add and remove tasks from the list, edit the description of the tasks and mark them as complete to clean the list.',
+    imageLocation: './images/to_do_list.png',
+    technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
+    live: 'https://jevazquezb.github.io/To_do_list/',
+    source: 'https://github.com/jevazquezb/To_do_list',
   },
   {
-    name: '2.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://mail.google.com/',
-    source: 'https://github.com/jevazquezb',
+    name: 'TV Shows Network',
+    description: 'A website that allows users to find, like, and comment on different TV shows.',
+    imageLocation: './images/tv_shows.png',
+    technologies: ['HTML', 'SCSS', 'JavaScript', 'Webpack'],
+    live: 'https://gopxfs.github.io/TV-Shows-Network/dist/',
+    source: 'https://github.com/Gopxfs/TV-Shows-Network',
   },
   {
-    name: '3.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://mail.google.com/',
-    source: 'https://github.com/jevazquezb',
+    name: 'Bookstore',
+    description: 'This website allows the user to add a book, remove a specific book and display a list of books',
+    imageLocation: './images/bookstore.png',
+    technologies: ['JavaScript', 'React', 'Redux'],
+    live: 'https://github.com/jevazquezb/Bookstore',
+    source: 'https://github.com/jevazquezb/Bookstore',
   },
   {
-    name: '4.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://mail.google.com/',
-    source: 'https://github.com/jevazquezb',
+    name: 'Catalog of my things',
+    description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.',
+    imageLocation: './images/catalog.png',
+    technologies: ['Ruby', 'PostgreSQL'],
+    live: 'https://github.com/indigodavid/catalog_of_my_things',
+    source: 'https://github.com/indigodavid/catalog_of_my_things',
   },
   {
-    name: '5.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://es.wikipedia.org/wiki/Yahoo!',
-    source: 'https://github.com/jevazquezb',
+    name: 'Carbon Intensity in the UK',
+    description: 'This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO2) emissions for each region of the UK and the nation itself. CO2 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO2 percentage contribution by energy source.',
+    imageLocation: './images/carbon.png',
+    technologies: ['JavaScript', 'React', 'Redux'],
+    live: 'https://jevazquezb.github.io/carbon_intensity/',
+    source: 'https://github.com/jevazquezb/carbon_intensity',
   },
   {
-    name: '6.- Multi-Post Stories\nGain+Glory',
-    description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    imageLocation: './images/project.png',
-    technologies: ['Ruby on rails', 'css', 'JavaScript', 'html'],
-    live: 'https://mail.google.com/',
-    source: 'https://github.com/jevazquezb',
+    name: 'Finapp',
+    description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
+    imageLocation: './images/finapp.png',
+    technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
+    live: 'https://salty-sea-06382.herokuapp.com/',
+    source: 'https://github.com/jevazquezb/Budget_app',
   },
 ];
 
@@ -147,6 +147,13 @@ function displayPopup(work) {
 }
 
 function addCard(work) {
+  // Add the image of the project
+  const imgCont = createElement('div', 'cards-img-cont');
+  const cardImg = createElement('img', 'card-img');
+  cardImg.src = work.imageLocation;
+  cardImg.alt = work.name;
+  imgCont.appendChild(cardImg);
+
   const cardContent = createElement('div', 'cards flex');
   cardContent.appendChild(createElement('h2', 'cards-title', work.name));
   cardContent.appendChild(languages(work.technologies));
@@ -156,6 +163,7 @@ function addCard(work) {
   cardContent.appendChild(anchorBtn);
 
   const cardContainer = createElement('div', 'works flex');
+  cardContainer.appendChild(imgCont);
   cardContainer.appendChild(cardContent);
   return cardContainer;
 }
