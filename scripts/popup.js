@@ -1,7 +1,7 @@
 const works = [
   {
     name: 'To-do List',
-    description: "This is a simple to-do list web application. The user can add and remove tasks from the list, edit the description of the tasks and mark them as complete to clean the list.",
+    description: 'This is a simple to-do list web application. The user can add and remove tasks from the list, edit the description of the tasks and mark them as complete to clean the list.',
     imageLocation: './images/to_do_list.png',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Webpack'],
     live: 'https://jevazquezb.github.io/To_do_list/',
@@ -9,7 +9,7 @@ const works = [
   },
   {
     name: 'TV Shows Network',
-    description: "A website that allows users to find, like, and comment on different TV shows.",
+    description: 'A website that allows users to find, like, and comment on different TV shows.',
     imageLocation: './images/tv_shows.png',
     technologies: ['HTML', 'SCSS', 'JavaScript', 'Webpack'],
     live: 'https://gopxfs.github.io/TV-Shows-Network/dist/',
@@ -17,7 +17,7 @@ const works = [
   },
   {
     name: 'Bookstore',
-    description: "This website allows the user to add a book, remove a specific book and display a list of books",
+    description: 'This website allows the user to add a book, remove a specific book and display a list of books',
     imageLocation: './images/bookstore.png',
     technologies: ['JavaScript', 'React', 'Redux'],
     live: 'https://github.com/jevazquezb/Bookstore',
@@ -25,7 +25,7 @@ const works = [
   },
   {
     name: 'Catalog of my things',
-    description: "We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.",
+    description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.',
     imageLocation: './images/catalog.png',
     technologies: ['Ruby', 'PostgreSQL'],
     live: 'https://github.com/indigodavid/catalog_of_my_things',
@@ -33,7 +33,7 @@ const works = [
   },
   {
     name: 'Carbon Intensity in the UK',
-    description: "This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO2) emissions for each region of the UK and the nation itself. CO2 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO2 percentage contribution by energy source.",
+    description: 'This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO2) emissions for each region of the UK and the nation itself. CO2 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO2 percentage contribution by energy source.',
     imageLocation: './images/carbon.png',
     technologies: ['JavaScript', 'React', 'Redux'],
     live: 'https://jevazquezb.github.io/carbon_intensity/',
@@ -41,7 +41,7 @@ const works = [
   },
   {
     name: 'Finapp',
-    description: "Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.",
+    description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
     imageLocation: './images/finapp.png',
     technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
     live: 'https://salty-sea-06382.herokuapp.com/',
