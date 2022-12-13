@@ -348,10 +348,12 @@ header {
 }
 
 .cv-feat-cont {
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   align-self: stretch;
+  gap: 5%;
+  margin: 0 5%;
 }
 
 .cv-feat-btn {
@@ -369,10 +371,6 @@ header {
   letter-spacing: 0.03em;
   color: #36b37e;
   text-decoration: none;
-}
-
-.cv-feat-cont-margin-2 {
-  margin: 0 30px;
 }
 
 .form-container {
@@ -721,10 +719,6 @@ header {
 
   .cv-feat-cont-margin-1 {
     margin: 0 49px;
-  }
-
-  .cv-feat-cont-margin-2 {
-    margin: 0 52px;
   }
 
   .cv-feat-cont-margin-3 {
