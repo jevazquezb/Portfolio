@@ -23,18 +23,18 @@ const works = [
     live: 'https://github.com/jevazquezb/Bookstore',
     source: 'https://github.com/jevazquezb/Bookstore',
   },
-  {
-    name: 'Catalog of my things',
-    description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.',
-    imageLocation: './images/catalog.png',
-    technologies: ['Ruby', 'PostgreSQL'],
-    live: 'https://github.com/indigodavid/catalog_of_my_things',
-    source: 'https://github.com/indigodavid/catalog_of_my_things',
-  },
+  // {
+  //   name: 'Catalog of my things',
+  //   description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.',
+  //   imageLocation: './images/catalog.png',
+  //   technologies: ['Ruby', 'PostgreSQL'],
+  //   live: 'https://github.com/indigodavid/catalog_of_my_things',
+  //   source: 'https://github.com/indigodavid/catalog_of_my_things',
+  // },
   {
     name: 'Carbon Intensity in the UK',
     description: 'This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO2) emissions for each region of the UK and the nation itself. CO2 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO2 percentage contribution by energy source.',
-    imageLocation: './images/carbon.png',
+    imageLocation: './images/carbon_desk2.png',
     technologies: ['JavaScript', 'React', 'Redux'],
     live: 'https://jevazquezb.github.io/carbon_intensity/',
     source: 'https://github.com/jevazquezb/carbon_intensity',
@@ -42,10 +42,18 @@ const works = [
   {
     name: 'Finapp',
     description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
-    imageLocation: './images/finapp.png',
+    imageLocation: './images/finapp2.png',
     technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
     live: 'https://salty-sea-06382.herokuapp.com/',
     source: 'https://github.com/jevazquezb/Budget_app',
+  },
+  {
+    name: 'Ducati rentals',
+    description: 'Ducati Rentals is an app that allows you to rent a Ducati bike wherever you are just by selecting one of our models and setting the dates to start feeling the power. Additionally, you can earn some extra money by renting your bike to other people. Go to our website, log in, upload your bike model and baam!!! Start making money!',
+    imageLocation: './images/ducati.png',
+    technologies: ['Javascript', 'React', 'Redux', 'Ruby on Rails'],
+    live: 'https://ducati-rentals.netlify.app/',
+    source: 'https://github.com/AbrahaKahsay/final-capstone-frontend',
   },
 ];
 
