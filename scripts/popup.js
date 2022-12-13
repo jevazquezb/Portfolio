@@ -52,7 +52,7 @@ const works = [
     name: 'Ducati rentals',
     description: 'Ducati Rentals is an app that allows you to rent a Ducati bike wherever you are just by selecting one of our models and setting the dates to start feeling the power. Additionally, you can earn some extra money by renting your bike to other people. Go to our website, log in, upload your bike model and baam!!! Start making money!',
     imageLocation: './images/ducati.png',
-    technologies: ['Javascript', 'React', 'Redux', 'Ruby on Rails'],
+    technologies: ['Javascript', 'React', 'Redux', 'RoR'],
     live: 'https://ducati-rentals.netlify.app/',
     source: 'https://github.com/AbrahaKahsay/final-capstone-frontend',
   },
