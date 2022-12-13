@@ -123,7 +123,7 @@ header {
 }
 
 .social-media-icons {
-  width: 170.17px;
+  width: 220px;
   height: 20px;
   justify-content: space-between;
   align-items: center;
@@ -642,7 +642,7 @@ header {
   }
 
   .social-media-icons {
-    width: 176px;
+    /* width: 176px; */
     margin-bottom: 84px;
   }
 
