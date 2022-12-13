@@ -25,7 +25,8 @@ const works = [
   },
   // {
   //   name: 'Catalog of my things',
-  //   description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of different types of elements that inherit properties of a base class.',
+  //   description: 'We developed a Ruby App that seizes OOP concepts to create a catalog of
+  //                 different types of elements that inherit properties of a base class.',
   //   imageLocation: './images/catalog.png',
   //   technologies: ['Ruby', 'PostgreSQL'],
   //   live: 'https://github.com/indigodavid/catalog_of_my_things',
