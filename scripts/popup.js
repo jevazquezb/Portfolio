@@ -17,10 +17,10 @@ const works = [
   },
   {
     name: 'Bookstore',
-    description: 'This website allows the user to add a book, remove a specific book and display a list of books',
+    description: 'This website allows the user to add or remove a book, and display a list of them.',
     imageLocation: './images/bookstore.png',
     technologies: ['JavaScript', 'React', 'Redux'],
-    live: 'https://github.com/jevazquezb/Bookstore',
+    live: 'https://bookstore-javb.netlify.app/',
     source: 'https://github.com/jevazquezb/Bookstore',
   },
   // {
@@ -34,7 +34,7 @@ const works = [
   // },
   {
     name: 'Carbon Intensity in the UK',
-    description: 'This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO2) emissions for each region of the UK and the nation itself. CO2 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO2 percentage contribution by energy source.',
+    description: 'This Single-Page Application (SPA) allows you to monitor carbon dioxide (CO\u2082) emissions for each region of the UK and the nation itself. CO\u2082 emissions are updated every half hour. The App contains a search field for the user to quickly look up the region of interest. Also, it displays a details page for every region showing the CO\u2082 percentage contribution by energy source.',
     imageLocation: './images/carbon_desk2.png',
     technologies: ['JavaScript', 'React', 'Redux'],
     live: 'https://jevazquezb.github.io/carbon_intensity/',
@@ -45,12 +45,12 @@ const works = [
     description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
     imageLocation: './images/finapp2.png',
     technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
-    live: 'https://salty-sea-06382.herokuapp.com/',
+    live: 'https://finapp.onrender.com/',
     source: 'https://github.com/jevazquezb/Budget_app',
   },
   {
     name: 'Ducati rentals',
-    description: 'Ducati Rentals is an app that allows you to rent a Ducati bike wherever you are just by selecting one of our models and setting the dates to start feeling the power. Additionally, you can earn some extra money by renting your bike to other people. Go to our website, log in, upload your bike model and baam!!! Start making money!',
+    description: 'Ducati Rentals is an app that allows you to rent a Ducati bike wherever you are just by selecting one of our models and setting the dates to start feeling the power. Additionally, you can earn some extra money by renting your bike to other people. Go to our website, log in, upload your bike model and bam! Start making money!',
     imageLocation: './images/ducati.png',
     technologies: ['Javascript', 'React', 'Redux', 'RoR'],
     live: 'https://ducati-rentals.netlify.app/',
@@ -85,8 +85,9 @@ function closePopup() {
   popupCont.removeChild(popupCont.firstChild);
 }
 
-function createButton(src, alt, text, href) {
+function createButton(src, alt, text, href, target) {
   const popBtn = createElement('a', 'access-button', text, href);
+  popBtn.target = target;
   const btnIcon = createElement('img', 'pop-icon');
   btnIcon.src = src;
   btnIcon.alt = alt;
@@ -134,6 +135,7 @@ function displayPopup(work) {
       'See live version icon',
       'See Live',
       work.live,
+      '_blank',
     ),
   );
 
@@ -144,6 +146,7 @@ function displayPopup(work) {
       'GitHub icon',
       'See Source',
       work.source,
+      '_blank',
     ),
   );
 
