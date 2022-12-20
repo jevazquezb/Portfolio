@@ -46,7 +46,7 @@
         <a class="menu-opt-cont flex" href="#projects">
           <span class="menu-opt">Portfolio</span>
         </a>
-        <a class="menu-opt-cont flex" href="#about-title">
+        <a class="menu-opt-cont flex" href="#about">
           <span class="menu-opt">About</span>
         </a>
         <a class="menu-opt-cont flex" href="#form">
@@ -57,9 +57,9 @@
     <section class="headline flex">
       <h1 class="title">Hey there. I'm Jesús</h1>
       <!--Mobile version-->
-      <h1 class="title-desk">Hey there. I'm Jesús.</h1>
+      <h1 class="title-desk title-animation">Hey there. I'm Jesús.</h1>
       <!--Desktop version-->
-      <h2 class="title subtitle">I'm a software developer</h2>
+      <h2 class="title subtitle title-animation">I'm a software developer</h2>
       <p class="supporting-text">
         I can help you build a product, feature or website. Look through some of
         my work and experience! If you like what you see and have a project you
@@ -127,7 +127,7 @@
           </li>
         </li>
       </ul>
-      <a href="#projects" class="info-button flex" title="Display info">
+      <a id="works" href="#projects" class="info-button flex size-animation" title="Display info">
         <div class="arrow-container flex">
           <img
             class="arrow"
@@ -139,10 +139,10 @@
         </div>
       </a>
     </section>
-    <section id="works" class="recent-works flex">
+    <section id="projects" class="recent-works flex">
       <h2 class="title works-title works-title-mob">My Recent<br />Works</h2>
       <!--Mobile version-->
-      <h2 id="projects" class="title works-title works-title-desk">My Recent Works</h2>
+      <h2 class="title works-title works-title-desk">My Recent Works</h2>
       <!--Desktop version-->
       <div class="works-title-line"></div>
       <div class="works-container flex"></div>
@@ -150,15 +150,37 @@
     </section>
     <section id="about" class="recent-works about-me flex">
       <h2 id="about-title" class="title works-title">About me</h2>
-      <p class="about-text">
-        I'm a former chemical engineer who stumbled over coding during my master's 
-        degree and fell in love with it. Also, I'm the worst Halloween costume 
-        winner every year and I take that very seriously! <br/>
-        I can help you build a product, feature or website. Look through some of
-        my work and experience! If you like what you see and have a project you
-        need coded, don't hesitate to contact me.
-      </p>
-      <a href="./documents/Resume_jesusvazquez_20221217.pdf" target="_blank" class="access-button about-btn">Get My Resume</a>
+      <div class="flex about-desc">
+        <div class="flex photo">
+          <img
+            src="images/polaroid.jpeg"
+            width="300"
+            alt="Rigth arrow"
+            title="Custome link"
+          />          
+        </div>
+        <div class="desc">
+          <p class="about-text">
+            I'm a former chemical engineer who stumbled over coding during my master's 
+            degree and fell in love with it. Also, I'm the worst Halloween costume 
+            winner every year and I take that very seriously!
+            <a class="custome" href="./images/custome_party.jpeg" target="_blank">
+              <img
+                src="images/right_arrow.png"
+                width="30"
+                height="30"
+                alt="Rigth arrow"
+                title="Custome link"
+              />
+            </a>
+          </p>
+          <p class="about-text">Need help coding? Check out my projects 
+            <a class="abt-links" href="#works">above</a> or say hi 
+            <a class="abt-links" href="#form">down below</a>!
+          </p>
+          <a href="./documents/Resume_jesusvazquez_20221217.pdf" target="_blank" class="access-button about-btn">Get My Resume</a>
+        </div>
+      </div>
       <div class="works-container cv-container flex">
         <div class="cv-cell flex">
           <a href="#" class="cv-img flex">
