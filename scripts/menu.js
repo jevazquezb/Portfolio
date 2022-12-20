@@ -36,3 +36,13 @@ function displayMenu() {
 
 const menuBtn = document.querySelector('.menu-anchor');
 menuBtn.addEventListener('click', displayMenu);
+
+// Sticky menu
+function stickMenu() {
+  const header = document.querySelector('header');
+  const headline = document.querySelector('.headline');
+  header.classList.toggle('sticky', window.scrollY > 0);
+  headline.classList.toggle('fix-content', window.scrollY > 0);
+}
+
+window.addEventListener('scroll', stickMenu);

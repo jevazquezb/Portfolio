@@ -15,6 +15,14 @@ header {
   align-items: center;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 5px 6px 0 rgb(32 33 36 / 28%);
+}
+
 .logo-container {
   width: 114px;
   height: 48px;
@@ -92,6 +100,10 @@ header {
   background-size: 100%;
 }
 
+.fix-content {
+  margin-top: 48px;
+}
+
 .title {
   font-family: "Inter", sans-serif;
   font-style: normal;
@@ -122,12 +134,29 @@ header {
   margin: 55px 24px;
 }
 
+.custome > img {
+  transition: all 0.3s ease;
+}
+
 .social-media-icons {
   width: 220px;
   height: 20px;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 64px;
+}
+
+.social-media-icons li a img {
+  transition: transform 0.3s;
+}
+
+.custome > img:hover {
+  transform: scale(1.3);
+  padding: 0 5px;
+}
+
+.social-media-icons li a img:hover {
+  transform: scale(1.3);
 }
 
 .info-button {
@@ -162,6 +191,25 @@ header {
 .works-title {
   margin: 0 0 24px 0;
   align-self: stretch;
+}
+
+.about-desc {
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.photo {
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .works-title-desk {
@@ -298,6 +346,24 @@ header {
   line-height: 32px;
   text-align: center;
   margin-bottom: 24px;
+}
+
+.custome {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: text-bottom;
+}
+
+.abt-links {
+  color: inherit;
+  font-weight: bold;
+  text-decoration: none;
+  transition: font-size 0.3s ease;
+}
+
+.abt-links:hover {
+  font-size: 24px;
 }
 
 .about-btn {
@@ -603,6 +669,10 @@ header {
     display: none;
   }
 
+  .fix-content {
+    margin-top: 72px;
+  }
+
   .title {
     font-size: 48px;
     line-height: 60px;
@@ -618,8 +688,11 @@ header {
     color: #172b4d;
     text-align: center;
     margin: 0 24px;
+  }
+
+  .title-animation {
     animation-name: title-animation;
-    animation-duration: 2s;
+    animation-duration: 1.5s;
     animation-timing-function: ease-out;
   }
 
@@ -634,7 +707,7 @@ header {
   }
 
   .supporting-text {
-    width: 63vw;
+    width: 60%;
     font-size: 20px;
     line-height: 32px;
     text-align: center;
@@ -642,7 +715,6 @@ header {
   }
 
   .social-media-icons {
-    /* width: 176px; */
     margin-bottom: 84px;
   }
 
@@ -690,20 +762,25 @@ header {
     background-image: none;
   }
 
+  .about-desc {
+    gap: 2%;
+    margin-bottom: 45px;
+  }
+
+  .desc {
+    width: 40%;
+  }
+
   .recent-works.about-me {
     padding: 192px 0 0 0;
   }
 
   .about-me > .works-title {
-    margin-bottom: 24px;
-  }
-
-  .about-text {
-    width: 63vw;
+    margin-bottom: 15px;
   }
 
   .about-btn {
-    margin-bottom: 52px;
+    margin-bottom: 0;
   }
 
   .cv-container {

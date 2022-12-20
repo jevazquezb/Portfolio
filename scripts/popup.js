@@ -40,16 +40,26 @@ const works = [
     live: 'https://jevazquezb.github.io/carbon_intensity/',
     source: 'https://github.com/jevazquezb/carbon_intensity',
   },
+  // {
+  //   name: 'Finapp',
+  //   description: 'Finapp is a mobile web application where you can manage your budget.
+  //                 It allows the user to handle transactions associated with a category
+  //                 to see how much money has been spent and on what.',
+  //   imageLocation: './images/finapp2.png',
+  //   technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
+  //   live: 'https://finapp.onrender.com/',
+  //   source: 'https://github.com/jevazquezb/Budget_app',
+  // },
   {
-    name: 'Finapp',
-    description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
-    imageLocation: './images/finapp2.png',
-    technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
-    live: 'https://finapp.onrender.com/',
-    source: 'https://github.com/jevazquezb/Budget_app',
+    name: 'Math Magicians',
+    description: 'A calculator app where users can perform basic math operations.',
+    imageLocation: './images/math_magicians.png',
+    technologies: ['Javascript', 'React', 'Redux'],
+    live: 'https://math-magicians-javb.netlify.app/',
+    source: 'https://github.com/jevazquezb/Math_magicians',
   },
   {
-    name: 'Ducati rentals',
+    name: 'Ducati Rentals',
     description: 'Ducati Rentals is an app that allows you to rent a Ducati bike wherever you are just by selecting one of our models and setting the dates to start feeling the power. Additionally, you can earn some extra money by renting your bike to other people. Go to our website, log in, upload your bike model and bam! Start making money!',
     imageLocation: './images/ducati.png',
     technologies: ['Javascript', 'React', 'Redux', 'RoR'],
