@@ -14,6 +14,7 @@ header {
   justify-content: space-between;
   align-items: center;
 }
+
 .sticky {
   position: fixed;
   top: 0;
@@ -133,6 +134,10 @@ header {
   margin: 55px 24px;
 }
 
+.custome > img {
+  transition: all 0.3s ease;
+}
+
 .social-media-icons {
   width: 220px;
   height: 20px;
@@ -143,6 +148,11 @@ header {
 
 .social-media-icons li a img {
   transition: transform 0.3s;
+}
+
+.custome > img:hover {
+  transform: scale(1.3);
+  padding: 0 5px;
 }
 
 .social-media-icons li a img:hover {
@@ -343,15 +353,6 @@ header {
   justify-content: center;
   align-items: center;
   vertical-align: text-bottom;
-}
-
-.custome img {
-  transition: all 0.3s ease;
-}
-
-.custome img:hover {
-  transform: scale(1.3);
-  padding: 0 5px;
 }
 
 .abt-links {

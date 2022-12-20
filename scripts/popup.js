@@ -42,7 +42,9 @@ const works = [
   },
   // {
   //   name: 'Finapp',
-  //   description: 'Finapp is a mobile web application where you can manage your budget. It allows the user to handle transactions associated with a category to see how much money has been spent and on what.',
+  //   description: 'Finapp is a mobile web application where you can manage your budget.
+  //                 It allows the user to handle transactions associated with a category
+  //                 to see how much money has been spent and on what.',
   //   imageLocation: './images/finapp2.png',
   //   technologies: ['Ruby', 'PostgreSQL', 'Ruby on Rails'],
   //   live: 'https://finapp.onrender.com/',
