@@ -61,7 +61,7 @@ Ready to work?⛏️ You're all set to explore and change the repo locally (on y
 
 - GitHub: [@jevazquezb](https://github.com/jevazquezb)
 - Twitter: [@javb_1187](https://twitter.com/javb_1187)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jevazquezb)
+- LinkedIn: [@jevazquezb](https://www.linkedin.com/in/jevazquezb)
 
 ## 🤝 Contributing
 
